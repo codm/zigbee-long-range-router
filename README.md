@@ -13,10 +13,12 @@ We also designed a neat 3D printed case. The design files are available on Thing
 ![cod.m ZigBee Long Range Router in Case](codm-cc2530-cc2595-zigbee-router-small.jpg)
 
 # Firmware
-Thanks to https://ptvo.info and his [configurable ZigBee Firmware](https://ptvo.info/zigbee-switch-configurable-firmware-v2-210/), we've built our own version - based on Z-Stack 1.2 - of the firmware to make use of the onboard LED.
+Thanks to https://ptvo.info and his [configurable ZigBee Firmware](https://ptvo.info/zigbee-switch-configurable-firmware-v2-210/), we've built our own version of the firmware - based on Z-Stack 1.2 - to make use of the onboard LED.
+
+See zigbee2mqtt's FAQ for more info on how to use ZigBee routers and expand your current ZigBee mesh: https://www.zigbee2mqtt.io/information/FAQ.html#i-read-that-zigbee2mqtt-has-a-limit-of-20-devices-is-this-true
 
 ## Upgrading
-You can flash the module with a another/new firmware using an CC-Debugger from TI, whic is also used for the common CC2531-USB-Sticks. The pin header on the top has the same layout.
+You can flash the module with a another/new firmware using an CC-Debugger from TI, which is also used for the common CC2531-USB-Sticks. The pin header on the top has the same layout.
 
 # License
 [CC-BY-SA-NC 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/de/)
