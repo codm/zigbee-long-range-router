@@ -18603,7 +18603,7 @@ Source: www.kingbright.com</description>
 </library>
 <library name="codm" urn="urn:adsk.eagle:library:11602856">
 <packages>
-<package name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:footprint:20060414/1" library_version="27">
+<package name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:footprint:20060414/2" library_version="39">
 <wire x1="0" y1="0" x2="22.5" y2="0" width="0.127" layer="21"/>
 <wire x1="22.5" y1="0" x2="22.5" y2="16" width="0.127" layer="21"/>
 <wire x1="22.5" y1="16" x2="0" y2="16" width="0.127" layer="21"/>
@@ -18618,6 +18618,55 @@ Source: www.kingbright.com</description>
 <wire x1="22" y1="1" x2="22" y2="3.8" width="0.127" layer="21"/>
 <wire x1="22" y1="3.8" x2="18.7" y2="3.8" width="0.127" layer="21"/>
 <wire x1="18.7" y1="3.8" x2="18.7" y2="1" width="0.127" layer="21"/>
+<smd name="P0.6" x="2.55" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.5" x="3.82" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.4" x="5.09" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.3" x="6.36" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.2" x="7.63" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.1" x="8.9" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.0" x="10.17" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="RST" x="11.44" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.7" x="0" y="3.55" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.0" x="0" y="4.82" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.1" x="0" y="6.09" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.2" x="0" y="7.36" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.3" x="0" y="8.63" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.4" x="0" y="9.9" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.5" x="0" y="11.17" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="NC@1" x="2.55" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P1.6" x="3.82" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P1.7" x="5.09" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P2.0" x="6.36" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P2.1" x="7.63" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P2.2" x="8.9" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="VCC" x="10.17" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="GND" x="11.44" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="NC@2" x="0" y="12.44" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<text x="11" y="8" size="1.016" layer="21" font="vector" align="center">E18-MS1PA1-IPX</text>
+<circle x="20.3" y="2.4" radius="0.781021875" width="0.127" layer="21"/>
+</package>
+<package name="E18-MS1PA1-PCB" urn="urn:adsk.eagle:footprint:24870198/1" library_version="39">
+<wire x1="0" y1="0" x2="27" y2="0" width="0.127" layer="21"/>
+<wire x1="27" y1="0" x2="27" y2="16" width="0.127" layer="21"/>
+<wire x1="27" y1="16" x2="0" y2="16" width="0.127" layer="21"/>
+<wire x1="0" y1="16" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="1" y1="15" x2="1" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="1" x2="20" y2="1" width="0.127" layer="21"/>
+<wire x1="20" y1="1" x2="20" y2="15" width="0.127" layer="21"/>
+<wire x1="20" y1="15" x2="1" y2="15" width="0.127" layer="21"/>
+<wire x1="21" y1="1" x2="26" y2="1" width="0.127" layer="21"/>
+<wire x1="26" y1="1" x2="26" y2="3" width="0.127" layer="21"/>
+<wire x1="26" y1="3" x2="21" y2="3" width="0.127" layer="21"/>
+<wire x1="26" y1="3" x2="26" y2="5" width="0.127" layer="21"/>
+<wire x1="26" y1="5" x2="24" y2="5" width="0.127" layer="21"/>
+<wire x1="24" y1="5" x2="24" y2="7" width="0.127" layer="21"/>
+<wire x1="24" y1="7" x2="26" y2="7" width="0.127" layer="21"/>
+<wire x1="26" y1="7" x2="26" y2="9" width="0.127" layer="21"/>
+<wire x1="26" y1="9" x2="24" y2="9" width="0.127" layer="21"/>
+<wire x1="24" y1="9" x2="24" y2="11" width="0.127" layer="21"/>
+<wire x1="24" y1="11" x2="26" y2="11" width="0.127" layer="21"/>
+<wire x1="26" y1="11" x2="26" y2="14" width="0.127" layer="21"/>
+<wire x1="26" y1="14" x2="22" y2="14" width="0.127" layer="21"/>
 <smd name="P0.6" x="2.55" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
 <smd name="P0.5" x="3.82" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
 <smd name="P0.4" x="5.09" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
@@ -18642,14 +18691,18 @@ Source: www.kingbright.com</description>
 <smd name="VCC" x="10.17" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
 <smd name="GND" x="11.44" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
 <smd name="NC@2" x="0" y="12.44" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<text x="11" y="8" size="1.016" layer="21" font="vector" align="center">E18-MS1PA1-IPX</text>
-<circle x="20.3" y="2.4" radius="0.781021875" width="0.127" layer="21"/>
+<text x="11" y="8" size="1.016" layer="21" font="vector" align="center">E18-MS1PA1-PCB</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:package:20060415/2" type="model" library_version="34">
+<package3d name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:package:20060415/4" type="model" library_version="39">
 <packageinstances>
 <packageinstance name="E18-MS1PA1-IPX"/>
+</packageinstances>
+</package3d>
+<package3d name="E18-MS1PA1-PCB" urn="urn:adsk.eagle:package:24870218/3" type="model" library_version="39">
+<packageinstances>
+<packageinstance name="E18-MS1PA1-PCB"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -18687,7 +18740,7 @@ Source: www.kingbright.com</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="E18-MS1PA1" urn="urn:adsk.eagle:component:20060416/2" library_version="34">
+<deviceset name="E18-MS1PA1" urn="urn:adsk.eagle:component:20060416/5" library_version="39">
 <gates>
 <gate name="G$1" symbol="E18-MS1PA1-PCB/IPX" x="-13.97" y="-21.59"/>
 </gates>
@@ -18720,7 +18773,41 @@ Source: www.kingbright.com</description>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20060415/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20060415/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="E18-MS1PA1-PCB">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="NC@1" pad="NC@1"/>
+<connect gate="G$1" pin="NC@2" pad="NC@2"/>
+<connect gate="G$1" pin="P0.0" pad="P0.0"/>
+<connect gate="G$1" pin="P0.1" pad="P0.1"/>
+<connect gate="G$1" pin="P0.2" pad="P0.2"/>
+<connect gate="G$1" pin="P0.3" pad="P0.3"/>
+<connect gate="G$1" pin="P0.4" pad="P0.4"/>
+<connect gate="G$1" pin="P0.5" pad="P0.5"/>
+<connect gate="G$1" pin="P0.6" pad="P0.6"/>
+<connect gate="G$1" pin="P0.7" pad="P0.7"/>
+<connect gate="G$1" pin="P1.0" pad="P1.0"/>
+<connect gate="G$1" pin="P1.1" pad="P1.1"/>
+<connect gate="G$1" pin="P1.2" pad="P1.2"/>
+<connect gate="G$1" pin="P1.3" pad="P1.3"/>
+<connect gate="G$1" pin="P1.4" pad="P1.4"/>
+<connect gate="G$1" pin="P1.5" pad="P1.5"/>
+<connect gate="G$1" pin="P1.6" pad="P1.6"/>
+<connect gate="G$1" pin="P1.7" pad="P1.7"/>
+<connect gate="G$1" pin="P2.0" pad="P2.0"/>
+<connect gate="G$1" pin="P2.1" pad="P2.1"/>
+<connect gate="G$1" pin="P2.2" pad="P2.2"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:24870218/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -19285,7 +19372,7 @@ Updated by Ella Wu 2020-05-27&lt;br&gt;
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1µ"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="2k2"/>
 <part name="STATUS" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="U$5" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="E18-MS1PA1" device="IPX" package3d_urn="urn:adsk.eagle:package:20060415/2"/>
+<part name="U$5" library="codm" library_urn="urn:adsk.eagle:library:11602856" deviceset="E18-MS1PA1" device="IPX" package3d_urn="urn:adsk.eagle:package:20060415/4"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF"/>
 <part name="DEBUG" library="20021121-00010C4LF" deviceset="20021121-00010C4LF" device="" override_package3d_urn="urn:adsk.eagle:package:17705255/2" override_package_urn="urn:adsk.eagle:footprint:17705256/1"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="C" package3d_urn="urn:adsk.eagle:package:23422/2" value="22u"/>

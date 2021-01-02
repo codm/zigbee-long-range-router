@@ -10,6 +10,18 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -149,15 +161,15 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:YhlFwhPaSNeZ7DSIECsC1A" pcbguid="3ad9ce9d-876c-412a-a61d-90b3a3de7e39" lastpulledtime="2020-03-19T14:36:14Z" lastsyncedchangeguid="5098de86-73e8-5b51-046b-9b21c8d57ec3" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="ca729bee-e235-bedd-3876-2ea9d70e5568" lastpushedtime="2020-08-11T15:50:03Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzE1ODk4" projecturn="a.cGVyc29uYWw6dWUyYzE1ODk4IzIwMTkwNTIyMTk1MjcwNTc2" f3durn="urn:adsk.wipprod:dm.lineage:RKFl6RUaR2udjwfnpwZ46g" pcbguid="" lastpulledtime="" lastsyncedchangeguid="5098de86-73e8-5b51-046b-9b21c8d57ec3" latestrevisionid="8f6c90d6-e6d4-4709-9a79-04a164f515a9" lastsyncedrevisionid="8f6c90d6-e6d4-4709-9a79-04a164f515a9" lastboardhashguid="1723ffaa-d454-260c-bd84-bec76f4eb154" lastpushedtime="2020-09-23T09:23:36Z" linktopcb3d="false"/>
 <fusionteam huburn="a.YnVzaW5lc3M6Y29kbQ" projecturn="a.YnVzaW5lc3M6Y29kbSMyMDIwMDMxODI3NjA3MjEwNg" folderUrn="urn:adsk.wipprod:fs.folder:co.gMiZb4P2RGCMjO33SA6sMw" urn="urn:adsk.wipprod:dm.lineage:iT9RszudQbK3Oxnx8NgbpQ"  versionUrn="urn:adsk.wipprod:fs.file:vf.iT9RszudQbK3Oxnx8NgbpQ?version=1" camFileUrn="" camFileVersionUrn="" lastpublishedchangeguid="15759237-643d-d727-f3cb-ac2b1841dbe2"/>
 <plain>
 <text x="5" y="18.8" size="0.8128" layer="25" font="vector" align="center-left">CC2530-LR Standalone Router
-V0.2, 2020, codm.de</text>
-<text x="1.5" y="2.7" size="1.27" layer="26" rot="MR0" align="center-right">90085-0.2
+V0.3, 2020, codm.de</text>
+<text x="1.5" y="2.7" size="1.27" layer="26" rot="MR0" align="center-right">90085-0.3
 codm.de, 2020</text>
 <text x="40" y="12.1" size="1.016" layer="25" rot="R90" align="center">CC-BY-NC-SA</text>
-<text x="19.5" y="8.6" size="1.016" layer="25" rot="R270">90085-0.2</text>
+<text x="19.5" y="8.6" size="1.016" layer="25" rot="R270">90085-0.3</text>
 <hole x="41.5" y="2.5" drill="3"/>
 <hole x="2.5" y="21.5" drill="3"/>
 <wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
@@ -1352,7 +1364,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </library>
 <library name="codm" urn="urn:adsk.eagle:library:11602856">
 <packages>
-<package name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:footprint:20060414/1" library_version="27">
+<package name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:footprint:20060414/2" library_version="39">
 <wire x1="0" y1="0" x2="22.5" y2="0" width="0.127" layer="21"/>
 <wire x1="22.5" y1="0" x2="22.5" y2="16" width="0.127" layer="21"/>
 <wire x1="22.5" y1="16" x2="0" y2="16" width="0.127" layer="21"/>
@@ -1367,30 +1379,30 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="22" y1="1" x2="22" y2="3.8" width="0.127" layer="21"/>
 <wire x1="22" y1="3.8" x2="18.7" y2="3.8" width="0.127" layer="21"/>
 <wire x1="18.7" y1="3.8" x2="18.7" y2="1" width="0.127" layer="21"/>
-<smd name="P0.6" x="2.55" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.5" x="3.82" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.4" x="5.09" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.3" x="6.36" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.2" x="7.63" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.1" x="8.9" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.0" x="10.17" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="RST" x="11.44" y="0" dx="1.4224" dy="0.7112" layer="1" rot="R90"/>
-<smd name="P0.7" x="0" y="3.55" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="P1.0" x="0" y="4.82" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="P1.1" x="0" y="6.09" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="P1.2" x="0" y="7.36" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="P1.3" x="0" y="8.63" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="P1.4" x="0" y="9.9" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="P1.5" x="0" y="11.17" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
-<smd name="NC@1" x="2.55" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="P1.6" x="3.82" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="P1.7" x="5.09" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="P2.0" x="6.36" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="P2.1" x="7.63" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="P2.2" x="8.9" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="VCC" x="10.17" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="GND" x="11.44" y="16.14" dx="1.4224" dy="0.7112" layer="1" rot="R270"/>
-<smd name="NC@2" x="0" y="12.44" dx="1.4224" dy="0.7112" layer="1" rot="R180"/>
+<smd name="P0.6" x="2.55" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.5" x="3.82" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.4" x="5.09" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.3" x="6.36" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.2" x="7.63" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.1" x="8.9" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.0" x="10.17" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="RST" x="11.44" y="0" dx="1.4224" dy="0.8128" layer="1" rot="R90"/>
+<smd name="P0.7" x="0" y="3.55" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.0" x="0" y="4.82" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.1" x="0" y="6.09" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.2" x="0" y="7.36" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.3" x="0" y="8.63" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.4" x="0" y="9.9" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="P1.5" x="0" y="11.17" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
+<smd name="NC@1" x="2.55" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P1.6" x="3.82" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P1.7" x="5.09" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P2.0" x="6.36" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P2.1" x="7.63" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="P2.2" x="8.9" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="VCC" x="10.17" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="GND" x="11.44" y="16.14" dx="1.4224" dy="0.8128" layer="1" rot="R270"/>
+<smd name="NC@2" x="0" y="12.44" dx="1.4224" dy="0.8128" layer="1" rot="R180"/>
 <text x="11" y="8" size="1.016" layer="21" font="vector" align="center">E18-MS1PA1-IPX</text>
 <circle x="20.3" y="2.4" radius="0.781021875" width="0.127" layer="21"/>
 </package>
@@ -3305,7 +3317,7 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:package:20060415/2" type="model" library_version="34">
+<package3d name="E18-MS1PA1-IPX" urn="urn:adsk.eagle:package:20060415/4" type="model" library_version="39">
 <packageinstances>
 <packageinstance name="E18-MS1PA1-IPX"/>
 </packageinstances>
@@ -3809,7 +3821,7 @@ design rules under a new name.</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="0.1mm"/>
+<param name="mdWireWire" value="0.15mm"/>
 <param name="mdWirePad" value="0.1mm"/>
 <param name="mdWireVia" value="0.1mm"/>
 <param name="mdPadPad" value="0.1mm"/>
@@ -4017,7 +4029,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="10.25" y="-21.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="39.46" y="16.835" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U$5" library="codm" library_urn="urn:adsk.eagle:library:11602856" package="E18-MS1PA1-IPX" package3d_urn="urn:adsk.eagle:package:20060415/2" value="E18-MS1PA1IPX" x="38.25" y="1" smashed="yes" rot="R90"/>
+<element name="U$5" library="codm" library_urn="urn:adsk.eagle:library:11602856" package="E18-MS1PA1-IPX" package3d_urn="urn:adsk.eagle:package:20060415/4" value="E18-MS1PA1IPX" x="38.25" y="1" smashed="yes" rot="R90"/>
 <element name="U1" library="SparkFun-IC-Power" package="SOT23-5" override_package3d_urn="urn:adsk.eagle:package:17705252/2" override_package_urn="urn:adsk.eagle:footprint:17705253/1" value="AP2112K" x="14.28" y="4" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.4055" y="1.9729" size="1.016" layer="25" align="top-center"/>
 <attribute name="PROD_ID" value="VREG-12457" x="-16.2" y="42.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4090,12 +4102,12 @@ design rules under a new name.</description>
 <wire x1="7.35" y1="4" x2="6.6" y2="4.75" width="0.254" layer="1"/>
 <wire x1="11.07" y1="4.95" x2="11.02" y2="5" width="0.254" layer="1"/>
 <wire x1="11.02" y1="5" x2="9.55" y2="5" width="0.254" layer="1"/>
-<wire x1="9.55" y1="5" x2="8.55" y2="4" width="0.254" layer="1"/>
+<wire x1="8.55" y1="4" x2="9.55" y2="5" width="0.254" layer="1"/>
 <contactref element="J1" pad="1"/>
 <wire x1="6.6" y1="12.6" x2="5.9" y2="13.3" width="0.254" layer="1"/>
 <wire x1="5.9" y1="13.3" x2="4.835" y2="13.3" width="0.254" layer="1"/>
 <contactref element="C4" pad="+"/>
-<wire x1="7.85" y1="4" x2="8.55" y2="4" width="0" layer="19" extent="1-1"/>
+<wire x1="7.85" y1="4" x2="8.55" y2="4" width="0.1524" layer="1"/>
 <wire x1="7.35" y1="4" x2="7.85" y2="4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
