@@ -3,7 +3,7 @@ Here are the Eagle board files and schematic of cod.m's [Zigbee Long Range Route
 
 The corresponding eagle library for the EByte modules, including 3D models, can be found here: https://github.com/codm/eagle-libraries
 
-You can buy a ready built router, including external antenna, 3D printed case and power supply at our webshop: https://shop.codm.de
+You can buy a ready built router, including external antenna, 3D printed case and power supply at our webshop: [CC2530-CC2592 Long Range ZigBee Router](https://shop.codm.de/automation/zigbee/23/zigbee-cc2530-cc2592-long-range-router/repeater)
 
 ![cod.m ZigBee Long Range Router](codm-cc2530-cc2592-zigbee-long-range-router-pcb.jpg)
 
